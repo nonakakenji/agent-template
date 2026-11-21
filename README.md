@@ -29,10 +29,24 @@
 
 1. 新しいタブで claude.ai/code を開き、GitHub でつなぎます。GitHub のアプリを入れる画面では「Only select repositories」を選んで、**my-agent だけ**にします
 2. my-agent を選んで、セッションを始めます（名前を変えた人は、自分でつけた名前の置き場です）
-   - my-agent が出てこないとき（前に Claude と GitHub をつないだことがある人）：その画面の「Claude GitHub App をインストール」を押し、「Only select repositories」に my-agent を足して「Save」を押します。戻って、リポジトリの検索欄の右の更新ボタンを押します
+   - my-agent が出てこないとき（前に Claude と GitHub をつないだことがある人）は、下の「my-agent が出てこないとき」をやってから戻ってきます
 3. 下の枠の一言をコピーボタンで写して、入力欄に貼って送ります（自分で打ってもかまいません）
 4. エージェントが「まず、私の名前を決めてください」と聞いてきます。名前を決めたら、あなたのお名前・お仕事などを1つずつ聞いてくるので、答えます（5問だけでも先に進めます）
 5. 終わったら、新しいセッションを my-agent で始めて、「あなたの名前は？」と聞きます。名前で答えたら完成です
+
+### my-agent が出てこないとき
+
+前に Claude と GitHub をつないだことがある人は、my-agent が一覧に出てこないことがあります。次の順で足します（2〜3分）。
+
+1. claude.ai/code の入力欄の下にある「リポジトリ」を押して、`my-agent` と打ちます
+2. 「一致するリポジトリがありません」と出たら、その下の青い字「Claude GitHub App をインストール」を押します
+   - 押しても何も開かないときは、GitHub の右上の自分のアイコン →「Settings」→ 左の「Applications」→ Claude の「Configure」を押します
+3. 「Confirm access」と出たら、「Verify via email」を押して、届いたメールのコードを入れます（出ない人もいます）
+4. 下のほうの「Repository access」で「Select repositories」を押し、`my-agent` と打って、出てきたものを押します。緑の「Save」を押します
+   - 「All repositories」には切り替えません。my-agent を足すだけにします
+5. 「あと一ステップ」と出たら、「GitHub の接続を完了」を押します
+6. claude.ai/code に戻って「リポジトリ」を押し、検索欄の右の ↻（更新）を押します。my-agent が出てきたら選びます
+7. 送る前に、入力欄の下が「my-agent」になっているか見ます。「リポジトリなし」のままなら、もう一度選びます
 
 ### コピーする文
 
